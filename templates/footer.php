@@ -12,7 +12,7 @@
 <div style="display:none;">
     <span id="hotlog_counter"></span>
     <span id="hotlog_dyn"></span>
-    <script type="text/javascript">
+    <script>
         var hot_s = document.createElement('script');
         hot_s.type = 'text/javascript';
         hot_s.async = true;
@@ -22,7 +22,7 @@
     </script>
     <noscript>
         <a href="http://click.hotlog.ru/?2598956" target="_blank">
-            <img src="http://hit5.hotlog.ru/cgi-bin/hotlog/count?s=2598956&im=725" border="0" title="HotLog" alt="HotLog"></a>
+            <img src="http://hit5.hotlog.ru/cgi-bin/hotlog/count?s=2598956&im=725" title="HotLog" alt="HotLog"></a>
     </noscript>
 </div>
 <!-- /HotLog -->

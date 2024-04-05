@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="ru" class="no-js">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Приёмная комиссия ДонГТИ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Приёмная комиссия ДонГТИ" />
-    <meta name="keywords" content="приёмная комиссия, ДонГТИ, прием, абитуриент, институт" />
+    <meta name="description" content="Приёмная комиссия ДонГТИ">
+    <meta name="keywords" content="приёмная комиссия, ДонГТИ, прием, абитуриент, институт">
     <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content="Приёмная комиссия ДонГТИ" />
-    <meta property="og:image" content="http://pk.dstu.education/images/emblems/emblem.png" />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:description" content="" />
-    <meta name="twitter:title" content="Приёмная комиссия ДонГТИ" />
-    <meta name="twitter:image" content="http://pk.dstu.education/images/emblems/emblem.png" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
-    <link rel="shortcut icon" href=/images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Приёмная комиссия ДонГТИ">
+    <meta property="og:image" content="http://pk.dstu.education/images/emblems/emblem.png">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico">
@@ -47,7 +43,25 @@
     <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-
+    <style>
+        div.more{
+            background: linear-gradient(#346f99, #4495c9);
+            border: none;
+            color: #fff;
+            height: 45px;
+            width: 100%;
+            /* font-size: 16px; */
+            display: none;
+            cursor: pointer;
+        }
+        @media screen and (max-width: 767px) {
+            div.more{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -68,7 +82,7 @@
 
                             <div class="col-md-12 col-sm-12 text-center fh5co-text-wrap">
                                 <div class="fh5co-text to-animate video-container">
-                                    <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/s1gUhTtqJ9o" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                    <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/s1gUhTtqJ9o" allowfullscreen="allowfullscreen"></iframe>
                                     </p>
                                 </div>
                             </div>
@@ -84,36 +98,36 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12">
                                 <a href="structure.php?page=mining#content-start" class="fh5co-feature to-animate">
-                                    <div style="height: 145px;"><img src=".\images\emblems\mining.png" style="width: 160px; margin-top: 25px;"></div>
+                                    <div style="height: 145px;"><img src="./images/emblems/mining.png" alt="Эмблема горного факультета" style="width: 160px; margin-top: 25px;"></div>
                                     <div class = "faculty-head-wrapper"><h3 class = "fh5co-feature-lead faculty-head">Горный факультет</h3></div>
                                     <p class="fh5co-feature-text">Расположение – VI учебный корпус,<br> ауд. 231<br>e-mail: dekanat.gf@dstu.education<br>тел.: (06442) 2-67-08, 2-79-60</p>
-                                    <input class="more" id="2" name="1" type="button" value="Узнать больше">
+                                    <div class="more">Узнать больше</div>
                                 </a>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12">
                                 <a href="structure.php?page=mmp#content-start" class="fh5co-feature to-animate">
-                                    <div style="height: 145px;"><img src=".\images\emblems\MMP.png" style="width: 140px;"></div>
+                                    <div style="height: 145px;"><img src="./images/emblems/MMP.png" alt="Эмблема факультета металлургического и машиностроительного производства" style="width: 140px;"></div>
                                     <div class = "faculty-head-wrapper"><h3 class = "fh5co-feature-lead faculty-head">Факультет металлургического и машиностроительного производства</h3></div>
                                     <p class="fh5co-feature-text">Расположение – V учебный корпус,<br> ауд. 212, 208<br>e-mail: dekanat.mmp@dstu.education<br>тел.: (06442) 2-98-03</p>
-                                    <input class="more" id="2" name="1" type="button" value="Узнать больше">
+                                    <div class="more">Узнать больше</div>
                                 </a>
                             </div>
                             <div class="clearfix visible-sm-block"></div>
                             <div class="fh5co-spacer fh5co-spacer-sm" style="height: 20px;"></div>
                             <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12">
                                 <a href="structure.php?page=aes#content-start" class="fh5co-feature to-animate">
-                                    <div style="height: 145px;"><img src=".\images\emblems\AES.png" style="width: 140px;"></div>
+                                    <div style="height: 145px;"><img src="./images/emblems/AES.png" alt="Эмблема факультета автоматизации и электротехнических систем" style="width: 140px;"></div>
                                     <div class = "faculty-head-wrapper"><h3 class = "fh5co-feature-lead faculty-head">Факультет автоматизации и электротехнических систем</h3></div>
                                     <p class="fh5co-feature-text">Расположение – I учебный корпус,<br> ауд. 234, 240<br>e-mail: dekanat.aes@dstu.education<br>тел.: (06442) 2-81-62</p>
-                                    <input class="more" id="2" name="1" type="button" value="Узнать больше">
+                                    <div class="more">Узнать больше</div>
                                 </a>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12">
                                 <a href="structure.php?page=feei#content-start" class="fh5co-feature to-animate">
-                                    <div style="height: 145px;"><img src=".\images\emblems\GED.png" style="width: 140px;"></div>
+                                    <div style="height: 145px;"><img src="./images/emblems/GED.png" alt="Эмблема факультета фундаментального инженерного образования и инноваций" style="width: 140px;"></div>
                                     <div class = "faculty-head-wrapper"><h3 class = "fh5co-feature-lead faculty-head">Факультет фундаментального инженерного образования и инноваций</h3></div>
                                     <p class="fh5co-feature-text">Расположение – II учебный корпус,<br> ауд. 317, 319<br>e-mail: dekanat.fod@dstu.education<br>тел.: (06442) 2-72-81</p>
-                                    <input class="more" id="2" name="1" type="button" value="Узнать больше">
+                                    <div class="more">Узнать больше</div>
                                 </a>
                             </div>
 
@@ -139,7 +153,7 @@
 
                                 <div class="item">
                                     <div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
-                                        <img src=".\images\emblems\mining.png" style="width: 140px;">
+                                        <img src="./images/emblems/mining.png" style="width: 140px;">
                                     </div>
                                     <div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
                                         <h2 style="color: white;">Горный факультет</h2>
@@ -150,7 +164,7 @@
 
                                 <div class="item">
                                     <div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
-                                        <img src=".\images\emblems\MMP.png" style="width: 140px;">
+                                        <img src="./images/emblems/MMP.png" style="width: 140px;">
                                     </div>
                                     <div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
                                         <h2 style="color: white;">Факультет металлургического и машиностроительного производства</h2>
@@ -161,7 +175,7 @@
 
                                 <div class="item">
                                     <div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
-                                        <img src=".\images\emblems\AES.png" style="width: 140px;">
+                                        <img src="./images/emblems/AES.png" style="width: 140px;">
                                     </div>
                                     <div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
                                         <h2 style="color: white;">Факультет автоматизации и электротехнических систем</h2>
@@ -172,7 +186,7 @@
 
                                 <div class="item">
                                     <div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
-                                        <img src=".\images\emblems\GED.png" style="width: 140px;">
+                                        <img src="./images/emblems/GED.png" style="width: 140px;">
                                     </div>
                                     <div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
                                         <h2 style="color: white;">Факультет фундаментального инженерного образования и инноваций</h2>
@@ -247,7 +261,7 @@
                                     </p>
                                 </div>
                                 <div class="col-md-8 col-sm-6 col-xs-12 col-xxs-12 map-container">
-                                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A46acaf43756a0e86adcb3006804e11d40aea88cb13d1e0ff69f65f4b687cc394&amp;source=constructor" frameborder="0"></iframe>
+                                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A46acaf43756a0e86adcb3006804e11d40aea88cb13d1e0ff69f65f4b687cc394&amp;source=constructor"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -420,7 +434,7 @@
 
 
 
-    <script type="text/javascript">
+    <script>
         $(document).on('click', 'li', function() {
             $('li').removeClass('active');
             $('ul').toggleClass('expanded');

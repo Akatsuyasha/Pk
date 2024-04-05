@@ -29,7 +29,7 @@ else
     data-toggle="collapse"
     data-target="#fh5co-navbar"
     aria-expanded="false"
-    aria-controls="navbar">
+    aria-controls="fh5co-menu">
     <i></i>
     </a>
     <!--<div class="container">
