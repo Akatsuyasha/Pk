@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'AGRevueCyr-Roman';
+    src: url('AGRevueCyrRomanMedium.eot');
+    src: url('AGRevueCyrRomanMedium.eot?#iefix') format('embedded-opentype'),
+        url('AGRevueCyrRomanMedium.woff2') format('woff2'),
+        url('AGRevueCyrRomanMedium.ttf') format('truetype'),
+        url('AGRevueCyrRomanMedium.svg#AGRevueCyrRomanMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
